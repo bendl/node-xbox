@@ -1,5 +1,5 @@
 {
-  "name": "XboxApi",
+  "name": "xbox-node",
   "version": "1.0.0",
   "description": "",
   "main": "lib/Xbox.js",
@@ -7,11 +7,14 @@
     "XboxApi": "index.js"
   },
   "dependencies": {
-      "request": "*"
+    "request": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
 }
