@@ -1,20 +1,24 @@
 {
-  "name": "xbox-node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lib/Xbox.js",
-  "bin": {
-    "XboxApi": "index.js"
-  },
-  "dependencies": {
-    "request": "*"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "mocha": "^2.0.1"
-  }
+    "name": "benl-xbox-node",
+    "version": "1.0.1",
+    "description": "",
+    "main": "lib/Xbox.js",
+    "bin": {
+        "XboxApi": "index.js"
+    },
+    "dependencies": {
+        "request": "*"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/iblanky/xbox-node.git"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^2.0.1"
+    }
 }
