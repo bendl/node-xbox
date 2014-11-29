@@ -1,11 +1,8 @@
 {
     "name": "benl-xbox-node",
-    "version": "1.0.1",
-    "description": "",
+    "version": "0.0.4",
+    "description": "Xbox Live API for Node.js using XboxApi.com",
     "main": "lib/Xbox.js",
-    "bin": {
-        "XboxApi": "index.js"
-    },
     "dependencies": {
         "request": "*"
     },
@@ -20,5 +17,8 @@
     "license": "ISC",
     "devDependencies": {
         "mocha": "^2.0.1"
+    },
+    "scripts": {
+        "test": "mocha test"
     }
 }
