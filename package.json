@@ -1,6 +1,6 @@
 {
-    "name": "benl-xbox-node",
-    "version": "0.0.4",
+    "name": "node-xbox",
+    "version": "0.0.5",
     "description": "Xbox Live API for Node.js using XboxApi.com",
     "main": "lib/Xbox.js",
     "dependencies": {

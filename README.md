@@ -1,5 +1,3 @@
-
-
 # node-xbox
 
 [![Build Status](https://travis-ci.org/iblanky/xbox-node.svg)](https://travis-ci.org/iblanky/xbox-node)
