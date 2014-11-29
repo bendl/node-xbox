@@ -9,10 +9,9 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
     "repository": {
         "type": "git",
-        "url": "http://github.com/iblanky/xbox-node.git"
+        "url": "https://github.com/iblanky/node-xbox.git"
     },
     "license": "ISC",
     "devDependencies": {
