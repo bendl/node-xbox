@@ -1,17 +1,12 @@
 var assert = require('assert');
+var expect = require("chai").expect;
+
 var xbox = require('../lib/Xbox')("my key");
 
-describe('xbox', function(){
-    it('should be an object containing account and xuid objects', function(done){
-        if('account' in xbox && 'xuid' in xbox)
-            done();
-        else throw new Error("Fail");
-    });
-});
-
-describe('xbox key', function(){
-    it('should have a key', function(done){
-        if(xbox.key) done();
-        else throw new Error("No Key");
+describe('xbox', function() {
+    it("should create the resources, given a key", function(){
+        expect(xbox).to.have.a.property("account");
+        expect(xbox).to.have.a.property("game");
+        expect(xbox).to.have.a.property("profile");
     });
 });
