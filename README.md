@@ -1,4 +1,4 @@
-# node-xbox [![Build Status](https://travis-ci.org/iblanky/node-xbox.svg)](https://travis-ci.org/iblanky/node-xbox)
+# node-xbox [![Build Status](https://travis-ci.org/iblanky/node-xbox.svg)](https://travis-ci.org/iblanky/node-xbox) [![NPM](https://img.shields.io/npm/dm/node-xbox.svg)](https://www.npmjs.org/package/node-xbox) 
 
 node-xbox is a Node.js module implementation of the https://xboxapi.com/ API. All information returned is straight from the XboxApi.com API.
 
