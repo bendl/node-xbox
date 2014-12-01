@@ -1,6 +1,6 @@
 {
     "name": "node-xbox",
-    "version": "0.0.8",
+    "version": "0.1.0",
     "description": "Xbox Live API for Node.js using XboxApi.com",
     "keywords": ["xbox", "live", "api", "profile", "gamercard"],
     "main": "lib/Xbox.js",
